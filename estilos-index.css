@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#000;
+	margin:0px;
+	height:100%;
+}
+#bg1{
+	background: url(images/bg.jpg) repeat-x bottom;
+	width:100%;
+	height:100%;
+}
+#bg{
+	background: url(images/background.jpg) no-repeat left bottom;
+	width:100%;
+	height:100%;
+	min-height:500px;
+}
+#wrap{
+	width:843px;
+	height:auto;
+	padding-bottom:200px;
+	padding-left:47px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo{
+	width:363px;
+	height:257px;
+}
+#logo-fin{
+	width:193px;
+	height:43px;
+	clear:both;
+	float:left
+}
+#cuadro-eslogan{
+	width:408px;
+	height:177px;
+	background:url(images/cuadro-eslogan.png);
+	float:left;
+}
+#barra-verde{
+	width:100%;
+	height:26px;
+	background:url(images/bg-barra-verde.jpg) repeat-x;
+}
+#footer{
+	width:100%;
+	height:100%;
+	background:#835601 url(images/bg-footer.jpg) repeat-x bottom;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	padding-bottom:100px;
+}
+#footer p{
+	margin:0px;
+}
+#footer a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+}
+#footer a:hover{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+div.btn-acerca-de-nosotros {
+	margin:0;
+	padding:0;
+	width:235px;
+	height:19px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	padding-top:20px;
+}
+div.btn-acerca-de-nosotros a{
+	display:block;
+	width:235px;
+	height:19px;
+	background:url(images/btn-acerca-de-nosotros.png) no-repeat top;
+}
+div.btn-acerca-de-nosotros a:hover{
+	background:url(images/btn-acerca-de-nosotros.png) no-repeat bottom;
+}
+
+div.btn-equipo-pv {
+	margin:0;
+	padding:0;
+	width:128px;
+	height:19px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	margin-top:10px;
+}
+div.btn-equipo-pv a{
+	display:block;
+	width:128px;
+	height:19px;
+	background:url(images/btn-equipo-pv.png) no-repeat top;
+}
+div.btn-equipo-pv a:hover{
+	background:url(images/btn-equipo-pv.png) no-repeat bottom;
+}
+
+div.btn-campa-ninos {
+	margin:0;
+	padding:0;
+	width:166px;
+	height:23px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	margin-top:10px;
+}
+div.btn-campa-ninos a{
+	display:block;
+	width:166px;
+	height:23px;
+	background:url(images/btn-campa-ninos.png) no-repeat top;
+}
+div.btn-campa-ninos a:hover{
+	background:url(images/btn-campa-ninos.png) no-repeat bottom;
+}
+
+div.btn-campa-jov {
+	margin:0;
+	padding:0;
+	width:194px;
+	height:19px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	margin-top:10px;
+}
+div.btn-campa-jov a{
+	display:block;
+	width:194px;
+	height:19px;
+	background:url(images/btn-campa-jovenes.png) no-repeat top;
+}
+div.btn-campa-jov a:hover{
+	background:url(images/btn-campa-jovenes.png) no-repeat bottom;
+}
+
+div.btn-galeria-fotos {
+	margin:0;
+	padding:0;
+	width:207px;
+	height:19px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	margin-top:10px;
+}
+div.btn-galeria-fotos a{
+	display:block;
+	width:207px;
+	height:19px;
+	background:url(images/btn-gal-fotos.png) no-repeat top;
+}
+div.btn-galeria-fotos a:hover{
+	background:url(images/btn-gal-fotos.png) no-repeat bottom;
+}
+
+div.btn-contactenos {
+	margin:0;
+	padding:0;
+	width:155px;
+	height:19px;
+	display:block;
+	cursor:pointer;
+	outline:none;
+	text-indent:-999999px;
+	clear:both;
+	margin-left:275px;
+	margin-top:10px;
+}
+div.btn-contactenos a{
+	display:block;
+	width:155px;
+	height:19px;
+	background:url(images/btn-contactenos.png) no-repeat top;
+}
+div.btn-contactenos a:hover{
+	background:url(images/btn-contactenos.png) no-repeat bottom;
+}
+
